@@ -4,18 +4,18 @@ Column                              Type                                        
 
 id                                  BIGINT          UNSIGNED                    AUTO_INCREMENT, NOT NULL        PRIMARY KEY
 marca                               VARCHAR (20)                                NOT NULL                        INDEX
-modello                             VARCHAR (20)                                NOT NULL
 prezzo                              INT (8)         UNSIGNED                    NOT NULL
-alimentazione                       VARCHAR (20)                                NULL
+modello                             VARCHAR (20)                                NOT NULL
+numero_porte                        INT (1)         UNSIGNED                    NULL   
 colore                              VARCHAR (30)                                NULL
+alimentazione                       VARCHAR (20)                                NULL
 anno_produzione                     YEAR                                        NOT NULL
 cilindrata                          FLOAT (5,1)     UNSIGNED                    NOT NULL
-cavalli                             INT (2)         UNSIGNED                    NOT NULL
-velocità max                        FLOAT (5,2)     UNSIGNED                    NULL
 trazione                            VARCHAR (10)                                NULL
+cavalli                             INT (2)         UNSIGNED                    NOT NULL
 accelerazione                       FLOAT (2,1)     UNSIGNED                    NULL
 chilometri_percorsi                 FLOAT (8,2)     UNSIGNED                    NULL
-numero_porte                        INT (1)         UNSIGNED                    NULL   
+velocità max                        FLOAT (5,2)     UNSIGNED                    NULL    
 posti                               INT (1)         UNSIGNED                    NULL   
 condizione                          VARCHAR (20)                                NULL
 cambio                              VARCHAR (15)                                NULL
